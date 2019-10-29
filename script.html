@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel='stylesheet' type ='text/css' href='style.css'>
+    <script src="etch.js"></script>
+    <title>Etch-a-Sketch</title>
+</head>
+
+<body>
+    <h1> Etch-A-Sketch </h1>
+    <h2 id="mode-text">Black Cursor</h2>
+    <button id="newGrid" onclick= "newGrids(16)">New Grid</button>
+    <button id="clearGrid" onclick= "clearGrids(16)">Clear Grid</button>
+    <button id="gradient-mode" onclick= "gradientModeToggle()">Gradient Mode On</button>
+    <button id="RGB-mode" onclick= "RGBModeToggle()">RGB Mode On</button>
+    <div id="grid-container">
+    <script>initGrids(16)</script>
+    </div>
+
+</body>
+
+</html>
